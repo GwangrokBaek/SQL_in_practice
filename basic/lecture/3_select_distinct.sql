@@ -9,7 +9,7 @@ order by 1 desc,
 drop table T3;
 -- table 삭제 
 create table T3(ID SERIAL not null primary key, BCOLOR VARCHAR, FCOLOR VARCHAR);
--- table 생성과 같은 create 명령어는 commit을 해줄필요 없다 이는 DDL 이므로 create 명령을 치는순간에 바로 적용되기 때
+-- table 생성과 같은 create 명령어는 commit을 해줄필요 없다 이는 DDL 이므로 create 명령을 치는순간에 바로 적용되기 때문
 
 insert 
 	into T3(BCOLOR, FCOLOR) -- T1 테이블에 데이터 삽입 
