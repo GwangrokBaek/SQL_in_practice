@@ -27,7 +27,7 @@ from
 group by
 	segment,
 	rollup(brand) -- 부분 roll up은 group by에 명시된 segment와 roll up에 명시된 brand를 기준으로 합계를 출력해주고, group by에 명시된 segment를 기준으로 합계를 출력해주지만, 전체 합계는 출력하지 않는다.
-				  -- 이때 부분 roll up group by 별 합계 + roll up 절의 맨 앞에 쓴 컬럼별 합계를 출력해준다.
+				  -- 이때 부분 roll up group by 별 합계 + roll up 절의 맨 앞에 쓴 컬럼과 group by에 명시된 컬럼별 합계를 출력해준다.
 order by
 	segment,
 	brand
