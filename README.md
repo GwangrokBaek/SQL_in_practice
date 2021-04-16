@@ -11,6 +11,7 @@ SQL 폐관수련 🥷 은 SQL 활용 능력 향상을 위해 도전중인 수련
 * 마지막으로 <b><a href="https://www.dataq.or.kr/www/sub/a_04.do">SQLD 자격증</a></b> 취득을 통해 실력을 점검합니다! (21.03.20 시험 예정)
 
 ## History
+* [2021-04-16] SQLD 합격
 
 ## Now : 패스트 캠퍼스 SQLD 완주반 4주차 진행 중
 ![image](https://user-images.githubusercontent.com/41013930/108703919-9f925b80-754e-11eb-9e3c-89a847500710.png)
